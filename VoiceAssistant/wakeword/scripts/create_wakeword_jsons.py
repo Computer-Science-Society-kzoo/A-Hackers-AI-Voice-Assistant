@@ -57,11 +57,11 @@ if __name__ == "__main__":
     and one with all the 1 labels
     """
     )
-    parser.add_argument('--zero_label_dir', type=str, default="data/0/", required=True,
+    parser.add_argument('--zero_label_dir', type=str, default=None, required=True,
                         help='directory of clips with zero labels')
-    parser.add_argument('--one_label_dir', type=str, default="data/1/", required=True,
+    parser.add_argument('--one_label_dir', type=str, default=None, required=True,
                         help='directory of clips with one labels')
-    parser.add_argument('--save_json_path', type=str, default="data/", required=True,
+    parser.add_argument('--save_json_path', type=str, default=None, required=True,
                         help='path to save json file')
     parser.add_argument('--percent', type=int, default=10, required=False,
                         help='percent of clips put into test.json instead of train.json')

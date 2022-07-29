@@ -139,7 +139,6 @@ models/
 
 wakeword_temp
 tb_logs
-*.ckpt*
 core
 ckpt
 audio_temp
